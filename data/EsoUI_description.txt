@@ -1,0 +1,44 @@
+[B]What it does?[/B]
+
+It tracks all purchases done for a specific item and shows some statistics in the item popup.
+
+--------------------
+
+[B]Dependencies:[/B]
+- AwesomeGuildStore>=2635 (I reuse an event from there to catch purchases, well, could have done it probably from an Eso event directly, but hell, you should install this addon anyway! :D )
+
+--------------------
+
+[B]How can it be used?[/B]
+
+Well, keep track of for how much you bought items.
+There are no configurations, no settings, it just works after activation
+
+[B]Why did you (the uploader) create this addon?[/B]
+
+Because I did not find anything similar doing just that, showing the price I purchased items in the item popup. 
+Good to know if I want to resell something I found in some shop so I can define how much at least I must take to make some profit 
+(TTC often shows too low prices, MasterMerchant too high to resell it fast enough ;) )
+
+[B]Anything else the developer wants to say?[/B]
+
+Yes, some special thanks to the developers of the addons I copied some code snippets from and learned how some things work:
+- Master Merchant
+- Tamriel Trade Center
+- Awesome Guildstore
+- @Baertram who gave me some tips in the comment section!
+- and thanks to all others too! Existing code base is the best to learn from ;)
+
+[B]Known Issues:[/B]
+
+Update 1.0.0
+just changed the version number
+
+Update 0.0.2 fixed all known issues:
+Implemented:
+- The addon now saves data per server and is thereby bettere useable for server hoppers
+- Item quality is now also tracked seperately (mainly for equipable items)
+- Purchase buffer limited to 100 items per "quality/item" combination to avoid future performance issues
+- implemented compatiblity functions for previous beta version users (already tracked data shouldn't get lost)
+Removed not used addon dependencies and unused ui xml
+General code cleanup

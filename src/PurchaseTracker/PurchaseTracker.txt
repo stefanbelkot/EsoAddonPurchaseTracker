@@ -1,6 +1,6 @@
 ## Title: PurchaseTracker
 ## Author: be.ste
-## Version: 0.0.2-alpha
+## Version: 1.0.0
 ## APIVersion: 100033
 ## AddOnVersion: 2
 ## DependsOn: AwesomeGuildStore>=2635
